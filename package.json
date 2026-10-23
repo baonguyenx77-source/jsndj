@@ -1,0 +1,42 @@
+{
+  "name": "sunwin-tx-ai-pro",
+  "version": "9.0.0",
+  "description": "AI Tài Xỉu Sunwin Pro - Balanced Edition v9.0 với 16 thuật toán và 5 lớp cân bằng, tối ưu từ 3,861 phiên thực",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "sunwin",
+    "tai-xiu",
+    "ai",
+    "prediction",
+    "ensemble",
+    "markov",
+    "ngram",
+    "pattern-recognition",
+    "balanced-edition"
+  ],
+  "author": "@cskhgiabao",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "fastify": "^4.28.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/sunwin-tx-ai-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/sunwin-tx-ai-pro/issues"
+  },
+  "homepage": "https://github.com/your-username/sunwin-tx-ai-pro#readme"
+}
